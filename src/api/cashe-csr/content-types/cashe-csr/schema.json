@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cashe_csrs",
+  "info": {
+    "singularName": "cashe-csr",
+    "pluralName": "cashe-csrs",
+    "displayName": "cashe-csr",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "casheBannerText": {
+      "type": "string"
+    },
+    "casheBannerImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "casheBannerIcon": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "DrivingPositiveChangeHeading": {
+      "type": "string"
+    },
+    "DrivingPositiveChangeDesc": {
+      "type": "string"
+    },
+    "CEOName": {
+      "type": "string"
+    },
+    "CEODesc": {
+      "type": "string"
+    },
+    "CEOImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "VisionMissionMainHeading": {
+      "type": "string"
+    },
+    "MissionVisionCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card-with-image"
+    },
+    "imageWithContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image-with-content"
+    },
+    "GreyBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.grey-box-content"
+    },
+    "GalleryContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image-gallery"
+    }
+  }
+}

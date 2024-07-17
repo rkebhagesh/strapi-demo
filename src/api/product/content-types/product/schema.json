@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string",
+      "regex": "^(0|[1-9][0-9]*)$",
+      "maxLength": 9
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Descripton": {
+      "type": "text"
+    },
+    "product_tab": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-tab.product-tab"
+    }
+  }
+}

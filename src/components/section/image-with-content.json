@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_section_image_with_contents",
+  "info": {
+    "displayName": "imageWithContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionHeading": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "string"
+    },
+    "sectionImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgLeft": {
+      "type": "boolean"
+    }
+  }
+}

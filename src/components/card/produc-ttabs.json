@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_card_produc_ttabs",
+  "info": {
+    "displayName": "producTtabs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

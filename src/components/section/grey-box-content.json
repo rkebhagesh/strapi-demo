@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_grey_box_contents",
+  "info": {
+    "displayName": "GreyBoxContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Descripton": {
+      "type": "text"
+    },
+    "BtnLink": {
+      "type": "string"
+    }
+  }
+}

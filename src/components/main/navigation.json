@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_main_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ParentLinkLabel": {
+      "type": "string"
+    },
+    "ChildLinkLabel": {
+      "type": "string"
+    },
+    "ParentLink": {
+      "type": "string"
+    },
+    "ChildLink": {
+      "type": "string"
+    }
+  }
+}

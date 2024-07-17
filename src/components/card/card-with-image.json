@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_card_card_with_images",
+  "info": {
+    "displayName": "CardWithImage"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Descripton": {
+      "type": "string"
+    }
+  }
+}
